@@ -3,24 +3,35 @@
 
 	color: #000000;
 }
+.icolor{
+  color: white;
+}
 
 .back{
 
 	background-color: #EBEBEB;
+  border-radius: 5px;
 }
 
 
 .maxaltpubli{
 
-	min-height: 80px;
-
+	min-height: 100px;
+  
 }
 
 .maxalt{
 
-	min-height: 450px;
+	min-height: 470px;
 }
 
+.inptsize{
+
+  width: 70%;
+}
+.content-top{
+  margin-top:-10px;
+}
 .backimg{
 
 background: url('imagem/exame.jpg') center / cover;
@@ -45,3 +56,64 @@ min-height: 200px;
   font-weight: 500;
 }
 
+.mdl-layout__drawer-button{
+  color: black !important;
+  padding-top: 0.6%;
+}
+
+.publicidade2{
+  min-height: 70.5%;
+  min-width: 12%;
+  position: absolute;
+  top: 21.5%;
+  right:2.3%;
+} 
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.demo-card-image.mdl-card {
+  width: 210px;
+  height: 200px;
+  background: url('imagem/exame.jpg') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mdl-card__menu{
+
+
+}
+
+.mdl-mini-footer__link-list{
+  
+}
+.heigfoot{
+padding-top: 0px;
+height: 4px
+
+}
+.colorfoot{
+  background-color: rgb(242,242,242) !important;
+}
+.titcolor{
+  color:black;
+}
+.privterm{
+text-align: right;
+padding-left: 80%;
+}
+.widlinklist{
+width:100%;
+}
+
+mdl-mini-footer__link-list 
